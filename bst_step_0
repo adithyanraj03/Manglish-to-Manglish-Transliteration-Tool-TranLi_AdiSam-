@@ -1,0 +1,32 @@
+digraph Initial_Tree {
+	rankdir=TB
+	H [label=H]
+	B [label=B]
+	I [label=I]
+	A [label=A]
+	G [label=G]
+	K [label=K]
+	E [label=E]
+	J [label=J]
+	L [label=L]
+	C [label=C]
+	F [label=F]
+	N [label=N]
+	D [label=D]
+	M [label=M]
+	O [label=O]
+	H -> B
+	H -> I
+	B -> A
+	B -> G
+	G -> E
+	E -> C
+	E -> F
+	C -> D
+	I -> K
+	K -> J
+	K -> L
+	L -> N
+	N -> M
+	N -> O
+}
